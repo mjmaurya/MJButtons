@@ -1,0 +1,24 @@
+{
+  "name": "mjbuttons",
+  "version": "1.0.0",
+  "description": "Simple Creative and Animated buttons",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjmaurya/MJButtons.git"
+  },
+  "keywords": [
+    "web",
+    "development",
+    "buttons"
+  ],
+  "author": "Manoj Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjmaurya/MJButtons/issues"
+  },
+  "homepage": "https://github.com/mjmaurya/MJButtons#readme"
+}
