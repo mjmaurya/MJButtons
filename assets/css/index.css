@@ -1,0 +1,937 @@
+.bt{
+	margin: 5px;
+	border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #050801;
+    text-align: center;
+    background: transparent;
+    overflow: hidden;
+    text-decoration: none;
+    font-weight: bold;
+}
+.bt-peace{
+	margin: 5px;
+	border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #050801;
+    box-shadow: 0 0 5px #fff;
+    text-align: center;
+    background: #ffe;
+    overflow: hidden;
+    text-decoration: none;
+    
+    font-weight: bold;
+}
+.bt-warning{
+	margin: 5px;
+	border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #050801;
+    z-index: 999;
+  	box-shadow: 0 0 5px #fff;
+    text-align: center;
+    background: yellow;
+    overflow: hidden;
+    text-decoration: none;
+    
+    font-weight: bold;
+}
+.bt-danger{
+	margin: 5px;
+	border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #050801;
+  	box-shadow: 0 0 5px #fff;
+    text-align: center;
+    background: #f40317;
+    overflow: hidden;
+    text-decoration: none;
+    
+    font-weight: bold;
+}
+.bt-primary{
+	margin: 5px;
+	border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #050801;
+  	box-shadow: 0 0 5px #fff;
+    text-align: center;
+    background: #0000ff;
+    overflow: hidden;
+    text-decoration: none;
+    
+    font-weight: bold;
+}
+.bt-aqua{
+	margin: 5px;
+	border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #050801;
+  	box-shadow: 0 0 5px #fff;
+    text-align: center;
+    background: #00ffff;
+    overflow: hidden;
+    text-decoration: none;
+    font-weight: bold;
+}
+.bt-lime{
+	margin: 5px;
+	border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #050801;
+  	box-shadow: 0 0 5px #fff;
+    text-align: center;
+    background: #00ff00;
+    overflow: hidden;
+    text-decoration: none;
+    
+    font-weight: bold;
+}
+.bt-success{
+	margin: 5px;
+	border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #050801;
+  	box-shadow: 0 0 5px #fff;
+    text-align: center;
+    background: #009933;
+    overflow: hidden;
+    text-decoration: none;
+    
+    font-weight: bold;
+}
+.bt-dark{
+	margin: 5px;
+	border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #fff;
+  	box-shadow: 0 0 5px #fff;
+    text-align: center;
+    background: #000;
+    overflow: hidden;
+    text-decoration: none;
+    
+    font-weight: bold;
+}
+.h-danger:hover{
+    background:  #f40317;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 5px #f40317,
+                0 0 25px #f40317,
+                0 0 50px #f40317,
+                0 0 100px #f40317;
+}
+.h-peace:hover{
+    background:  #ffe;
+    color: #000;
+    text-decoration: none;
+    box-shadow: 0 0 5px #ffe,
+                0 0 25px #ffe,
+                0 0 50px #ffe,
+                0 0 100px #ffe;
+}
+.h-primary:hover{
+background:  #0000ff;
+color: #fff;
+text-decoration: none;
+box-shadow: 0 0 5px #0000ff,
+                0 0 25px #0000ff,
+                0 0 50px #0000ff,
+                0 0 100px #0000ff;
+}
+
+.h-dark:hover{
+	background:  #000;
+color: #fff;
+text-decoration: none;
+box-shadow: 0 0 5px #000,
+                0 0 25px #000,
+                0 0 50px #000,
+                0 0 100px #000;
+}
+
+.h-success:hover{
+background:  #009933;
+color: #fff;
+text-decoration: none;
+box-shadow: 0 0 5px #009933,
+                0 0 25px #009933,
+                0 0 50px #009933,
+                0 0 100px #009933;
+}
+
+.h-lime:hover{
+background:  #00ff00;
+color: #fff;
+text-decoration: none;
+box-shadow: 0 0 5px #00ff00,
+                0 0 25px #00ff00,
+                0 0 50px #00ff00,
+                0 0 100px #00ff00;
+}
+
+.h-aqua:hover{
+	background:  #00e6e6;
+color: #fff;
+text-decoration: none;
+box-shadow: 0 0 5px #00e6e6,
+                0 0 25px #00e6e6,
+                0 0 50px #00e6e6,
+                0 0 100px #00e6e6;
+}
+
+.h-warning:hover{
+	background:  #ffff00;
+color: #000;
+text-decoration: none;
+box-shadow: 0 0 5px #ffff00,
+                0 0 25px #ffff00,
+                0 0 50px #ffff00,
+                0 0 100px #ffff00;
+}
+
+.bt span{
+    position: absolute;
+    display: block;
+}
+.bt span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#03e9f4);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1
+{
+0%
+{
+    left: -100%;
+}
+50%,100%{
+    left: 100%;
+}
+}
+.bt span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#03e9f4);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2
+{
+0%
+{
+    top: -100%;
+}
+50%,100%{
+    top: 100%;
+}
+}
+.bt span:nth-child(3){
+    right: 100%;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#03e9f4);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+@keyframes animate3
+{
+0%
+{
+    right: -100%;
+}
+50%,100%{
+    right: 100%;
+}
+}
+.bt span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#03e9f4);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4
+{
+0%
+{
+    bottom: -100%;
+}
+50%,100%{
+    bottom: 100%;
+}
+}
+
+
+
+.bt-danger span{
+    position: absolute;
+    display: block;
+}
+.bt-danger span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#03e9f4);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1
+{
+0%
+{
+    left: -100%;
+}
+50%,100%{
+    left: 100%;
+}
+}
+.bt-danger span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#03e9f4);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2
+{
+0%
+{
+    top: -100%;
+}
+50%,100%{
+    top: 100%;
+}
+}
+.bt-danger span:nth-child(3){
+    right: 100%;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#03e9f4);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+@keyframes animate3
+{
+0%
+{
+    right: -100%;
+}
+50%,100%{
+    right: 100%;
+}
+}
+.bt-danger span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#03e9f4);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4
+{
+0%
+{
+    bottom: -100%;
+}
+50%,100%{
+    bottom: 100%;
+}
+}
+
+
+.bt-warning span{
+    position: absolute;
+    display: block;
+}
+.bt-warning span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#00ff00);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1
+{
+0%
+{
+    left: -100%;
+}
+50%,100%{
+    left: 100%;
+}
+}
+.bt-warning span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#00ff00);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2
+{
+0%
+{
+    top: -100%;
+}
+50%,100%{
+    top: 100%;
+}
+}
+.bt-warning span:nth-child(3){
+    right: 100%;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#00ff00);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+@keyframes animate3
+{
+0%
+{
+    right: -100%;
+}
+50%,100%{
+    right: 100%;
+}
+}
+ .bt-warning span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#00ff00);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4
+{
+0%
+{
+    bottom: -100%;
+}
+50%,100%{
+    bottom: 100%;
+}
+}
+
+.bt-aqua span{
+    position: absolute;
+    display: block;
+}
+.bt-aqua span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#f40317);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1
+{
+0%
+{
+    left: -100%;
+}
+50%,100%{
+    left: 100%;
+}
+}
+.bt-aqua span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#f40317);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2
+{
+0%
+{
+    top: -100%;
+}
+50%,100%{
+    top: 100%;
+}
+}
+.bt-aqua span:nth-child(3){
+    right: 100%;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#f40317);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+@keyframes animate3
+{
+0%
+{
+    right: -100%;
+}
+50%,100%{
+    right: 100%;
+}
+}
+.bt-aqua span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#f40317);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4
+{
+0%
+{
+    bottom: -100%;
+}
+50%,100%{
+    bottom: 100%;
+}
+}
+
+
+.bt-dark span{
+    position: absolute;
+    display: block;
+}
+.bt-dark span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#fff);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1
+{
+0%
+{
+    left: -100%;
+}
+50%,100%{
+    left: 100%;
+}
+}
+.bt-dark span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#fff);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2
+{
+0%
+{
+    top: -100%;
+}
+50%,100%{
+    top: 100%;
+}
+}
+.bt-dark span:nth-child(3){
+    right: 100%;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#fff);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+@keyframes animate3
+{
+0%
+{
+    right: -100%;
+}
+50%,100%{
+    right: 100%;
+}
+}
+.bt-dark span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#fff);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4
+{
+0%
+{
+    bottom: -100%;
+}
+50%,100%{
+    bottom: 100%;
+}
+}
+
+.bt-peace span{
+    position: absolute;
+    display: block;
+}
+.bt-peace span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#f40317);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1
+{
+0%
+{
+    left: -100%;
+}
+50%,100%{
+    left: 100%;
+}
+}
+.bt-peace span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#f40317);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2
+{
+0%
+{
+    top: -100%;
+}
+50%,100%{
+    top: 100%;
+}
+}
+.bt-peace span:nth-child(3){
+    right: 100%;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#f40317);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+@keyframes animate3
+{
+0%
+{
+    right: -100%;
+}
+50%,100%{
+    right: 100%;
+}
+}
+.bt-peace span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#f40317);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4
+{
+0%
+{
+    bottom: -100%;
+}
+50%,100%{
+    bottom: 100%;
+}
+}
+
+
+.bt-primary span{
+    position: absolute;
+    display: block;
+}
+.bt-primary span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#fff);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1
+{
+0%
+{
+    left: -100%;
+}
+50%,100%{
+    left: 100%;
+}
+}
+.bt-primary span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#fff);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2
+{
+0%
+{
+    top: -100%;
+}
+50%,100%{
+    top: 100%;
+}
+}
+.bt-primary span:nth-child(3){
+    right: 100%;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#fff);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+@keyframes animate3
+{
+0%
+{
+    right: -100%;
+}
+50%,100%{
+    right: 100%;
+}
+}
+.bt-primary span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#fff);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4
+{
+0%
+{
+    bottom: -100%;
+}
+50%,100%{
+    bottom: 100%;
+}
+}
+
+
+.bt-lime span{
+    position: absolute;
+    display: block;
+}
+.bt-lime span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#f40317);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1
+{
+0%
+{
+    left: -100%;
+}
+50%,100%{
+    left: 100%;
+}
+}
+.bt-lime span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#f40317);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2
+{
+0%
+{
+    top: -100%;
+}
+50%,100%{
+    top: 100%;
+}
+}
+.bt-lime span:nth-child(3){
+    right: 100%;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#f40317);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+@keyframes animate3
+{
+0%
+{
+    right: -100%;
+}
+50%,100%{
+    right: 100%;
+}
+}
+.bt-lime span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#f40317);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4
+{
+0%
+{
+    bottom: -100%;
+}
+50%,100%{
+    bottom: 100%;
+}
+}
+.bt-success span{
+    position: absolute;
+    display: block;
+}
+.bt-success span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#f40317);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1
+{
+0%
+{
+    left: -100%;
+}
+50%,100%{
+    left: 100%;
+}
+}
+.bt-success span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#f40317);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2
+{
+0%
+{
+    top: -100%;
+}
+50%,100%{
+    top: 100%;
+}
+}
+.bt-success span:nth-child(3){
+    right: 100%;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#f40317);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+@keyframes animate3
+{
+0%
+{
+    right: -100%;
+}
+50%,100%{
+    right: 100%;
+}
+}
+.bt-success span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#f40317);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4
+{
+0%
+{
+    bottom: -100%;
+}
+50%,100%{
+    bottom: 100%;
+}
+}
+
+/* Write Your CSS here */
