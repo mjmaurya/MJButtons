@@ -8,7 +8,7 @@ Simple buttons you can use easily for your next project.
 **You can download the CSS file [here](http://www.manojcse.me/mjbutton.html) and then add it to your html file inbetween the <head> tags:**
   
   ```
-  <link rel="stylesheet" href="/path/to/sbuttons.min.css"> 
+  <link rel="stylesheet" href="/path/to/mjbuttons.min.css"> 
   ```
   
 **Or instead of downloading the file, you can use the [CDN](https://en.wikipedia.org/wiki/Content_delivery_network):**
