@@ -1,4 +1,9 @@
 # MJButtons
+
+[![GitHub license](https://img.shields.io/github/license/mjmaurya/MJButtons)](https://github.com/mjmaurya/MJButtons/blob/master/LICENSE)
+[![welcome](https://img.shields.io/badge/PRs-welcome-red)](https://github.com/mjmaurya/MJButtons/blob/master/CONTRIBUTION.md)
+[![welcome](https://img.shields.io/badge/OpenSource-❤️-green)](https://github.com/mjmaurya/MJButtons/blob/master/CONTRIBUTION.md)
+
 Simple buttons you can use easily for your next project.
 
 [Hacktoberfest](https://hacktoberfest.digitalocean.com/) is starting soon, and this repository will help people who don't know where to start contributing
