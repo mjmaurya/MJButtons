@@ -1,99 +1,136 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>MJButton</title>
-	<link rel="stylesheet" href="assets/css/index.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-	<link rel="shortcut icon" type="image/x-icon" href="assets/icon/favicon.png">
-        
-	<style type="text/css">
-		body{
-			margin: 0;
-			padding:0;
-			background: #ffe;
-		}
+  <head>
+    <title>MJButton</title>
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/icon/favicon.png"
+    />
 
-		#code{
-		height: 100%;
-		align-content:center;
-		 padding: 10px;
-		 background: #000;
-		 color: #fff;
-		 resize: none;
-		}
-		section{
-			padding-top: 120px;
-			padding-bottom: 50px;
-		}
-		.mycenter{
-			text-align: center;
-		}
-		.pd-15{
-			padding: 15px;
-		}
-	</style>
-</head>
-<body >
-<header>
-	<nav class="navbar navbar-expand-lg py-3 navbar-dark shadow-sm fixed-top" style="background: royalblue; margin-bottom: 100px;">
-            <div class="container">
-              <a href="index.html" class="navbar-brand">
-                <span class="text-uppercase bt">
-                	<span></span>
-                	<span></span>
-                	<span></span>
-                	<span></span>
+    <style type="text/css">
+      body {
+        margin: 0;
+        padding: 0;
+        background: #ffe;
+      }
 
-                MJButton</span>
-              </a>
-          
-              <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
-          
-              <div id="navbarSupportedContent" class="collapse navbar-collapse">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active"><a href="index.html" class="nav-link">Home <span class="sr-only">(current)</span></a></li>
-                  <li class="nav-item"><a href="#colored" class="nav-link">colored</a></li>
-                  <li class="nav-item"><a href="#hover" class="nav-link">hover</a></li>
-                  <li class="nav-item"><a href="#animated" class="nav-link">Animated</a></li>
-                  <li class="nav-item"><a href="#start" class=" h-aqua bt-primary">
-                  	<span></span>
-                	<span></span>
-                	<span></span>
-                	<span></span>
-                  Get Started</a></li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-</header>
+      #code {
+        height: 100%;
+        align-content: center;
+        padding: 10px;
+        background: #000;
+        color: #fff;
+        resize: none;
+      }
+      section {
+        padding-top: 120px;
+        padding-bottom: 50px;
+      }
+      .mycenter {
+        text-align: center;
+      }
+      .pd-15 {
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg py-3 navbar-dark shadow-sm fixed-top"
+        style="background: royalblue; margin-bottom: 100px"
+      >
+        <div class="container">
+          <a href="index.html" class="navbar-brand">
+            <span class="text-uppercase bt">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
 
+              MJButton</span
+            >
+          </a>
 
-<section>
-    <div class="container-fluid">
-    <div align="center"><h2 class="bt h-aqua">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-    Live Preview Here</h2></div>
-    <div class="row" style="height: 420px;">
-        <div class="col-sm-6">
-            <div id="codeshow" style="background: #fee; width: 100%;height: 100%; padding: 10px;">
-                <!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
-<p class="bt-success h-primary">MJButton</p>
+          <button
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            class="navbar-toggler"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-</body>
-</html>
-            </div>
-            
+          <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a href="index.html" class="nav-link"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#colored" class="nav-link">colored</a>
+              </li>
+              <li class="nav-item">
+                <a href="#hover" class="nav-link">hover</a>
+              </li>
+              <li class="nav-item">
+                <a href="#animated" class="nav-link">Animated</a>
+              </li>
+              <li class="nav-item">
+                <a href="#start" class="h-aqua bt-primary">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  Get Started</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="col-sm-6">
-<textarea id="code" onkeyup="paste();" class="form-control">
+      </nav>
+    </header>
+
+    <section>
+      <div class="container-fluid">
+        <div align="center">
+          <h2 class="bt h-aqua">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Live Preview Here
+          </h2>
+        </div>
+        <div class="row" style="height: 420px">
+          <div class="col-sm-6">
+            <div
+              id="codeshow"
+              style="background: #fee; width: 100%; height: 100%; padding: 10px"
+            >
+              <!DOCTYPE html>
+              <html>
+                <head>
+                  <title></title>
+                </head>
+                <body>
+                  <p class="bt-success h-primary">MJButton</p>
+                </body>
+              </html>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <textarea id="code" onkeyup="paste();" class="form-control">
 &lt!DOCTYPE html&gt
 &lthtml&gt
 &lthead&gt
@@ -104,161 +141,166 @@
 
 &lt/body&gt
 &lt/html&gt
-</textarea>     
+</textarea
+            >
+          </div>
         </div>
-    </div>
-</div>
-</section>
+      </div>
+    </section>
 
-<section id="start">
-    <h1 align="center">Get Started</h1>
-    <div class="mycenter">
+    <section id="start">
+      <h1 align="center">Get Started</h1>
+      <div class="mycenter">
         <p>copy below link and paste inside &lthead&gt tag</p>
-        <code>&ltlink rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"&gt</code>
+        <code
+          >&ltlink rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"&gt</code
+        >
 
         <div>
-            <a class="bt-peace h-aqua" href="">
+          <a class="bt-peace h-aqua" href="">
             <span></span>
             <span></span>
             <span></span>
             <span></span>
-            Download CSS File</a>
+            Download CSS File</a
+          >
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="colored" class="mycenter">
-    <div class="container">
-        <h2 class="pd-15">SImple Button</h2>
-    <div class="row">
-    <p class="bt " href="">bt</p>
-    <p class="bt-danger" href="">bt-danger</p>
-    <p class="bt-peace" href="">bt-peace</p>
-    <p class="bt-primary" href="">bt-primary</p>
-    <p class="bt-aqua" href="">bt-aqua</p>
-    <p class="bt-warning" href="">bt-warning</p>
-    <p class="bt-lime" href="">bt-lime</p>
-    <p class="bt-success" href="">bt-success</p>
-    <p class="bt-dark" href="">bt-dark</p>
+    <section id="colored" class="mycenter">
+      <div class="container">
+        <h2 class="pd-15">Simple Button</h2>
+        <div class="row">
+          <p class="bt" href="">bt</p>
+          <p class="bt-danger" href="">bt-danger</p>
+          <p class="bt-peace" href="">bt-peace</p>
+          <p class="bt-primary" href="">bt-primary</p>
+          <p class="bt-aqua" href="">bt-aqua</p>
+          <p class="bt-warning" href="">bt-warning</p>
+          <p class="bt-lime" href="">bt-lime</p>
+          <p class="bt-success" href="">bt-success</p>
+          <p class="bt-dark" href="">bt-dark</p>
+        </div>
+      </div>
+    </section>
 
-    </div>
-    </div>
-</section>
-
-<section id="hover" class="mycenter">
-    <div class="container">
+    <section id="hover" class="mycenter">
+      <div class="container">
         <h2 class="pd-15">Hover Button</h2>
-    <div class="row">
-    <p class="bt h-aqua">bt h-aqua</p>
-    <p class="bt-danger h-primary">bt-danger h-primary</p>
-    <p class="bt-peace h-danger" href="">bt-peace h-danger</p>
-    <p class="bt-primary h-dark" href="">bt-primary h-dark</p>
-    <p class="bt-aqua h-peace" href="">bt-aqua h-peace</p>
-    <p class="bt-warning h-success" href="">bt-warning h-success</p>
-    <p class="bt-lime h-aqua" href="">bt-lime h-aqua</p>
-    <p class="bt-success h-lime" href="">bt-success h-lime</p>
-    <p class="bt-dark h-warning" href="">bt-dark h-warning</p>
-
-    </div>
-    </div>
-</section>
-<section id="animated" class="mycenter">
-    <div class="container">
+        <div class="row">
+          <p class="bt h-aqua">bt h-aqua</p>
+          <p class="bt-danger h-primary">bt-danger h-primary</p>
+          <p class="bt-peace h-danger" href="">bt-peace h-danger</p>
+          <p class="bt-primary h-dark" href="">bt-primary h-dark</p>
+          <p class="bt-aqua h-peace" href="">bt-aqua h-peace</p>
+          <p class="bt-warning h-success" href="">bt-warning h-success</p>
+          <p class="bt-lime h-aqua" href="">bt-lime h-aqua</p>
+          <p class="bt-success h-lime" href="">bt-success h-lime</p>
+          <p class="bt-dark h-warning" href="">bt-dark h-warning</p>
+        </div>
+      </div>
+    </section>
+    <section id="animated" class="mycenter">
+      <div class="container">
         <h2 class="pd-15">Animated Button</h2>
         <div class="row">
-    <p class="bt h-aqua">
-        <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-    Button</p>
-    <p class="bt-warning h-danger" href="">
-        <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-    Button</p>
-    <p class="bt-primary h-dark" href="">
-<span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-    Button</p>
-    <p class="bt-aqua h-peace" href="">
-        <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-    Button</p>
-    <p class="bt-peace h-success" href="">
-        <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-    Button</p>
-    <p class="bt-lime h-aqua" href="">
-<span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-    Button</p>
-    <p class="bt-success h-lime" href="">
-<span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-    Button</p>
-    <p class="bt-dark h-warning" href="">
-<span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-    Button</p>
+          <p class="bt h-aqua">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Button
+          </p>
+          <p class="bt-warning h-danger" href="">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Button
+          </p>
+          <p class="bt-primary h-dark" href="">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Button
+          </p>
+          <p class="bt-aqua h-peace" href="">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Button
+          </p>
+          <p class="bt-peace h-success" href="">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Button
+          </p>
+          <p class="bt-lime h-aqua" href="">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Button
+          </p>
+          <p class="bt-success h-lime" href="">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Button
+          </p>
+          <p class="bt-dark h-warning" href="">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Button
+          </p>
 
-    <p class="bt-danger h-primary" href="">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    Download
-                </p>
+          <p class="bt-danger h-primary" href="">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Download
+          </p>
+        </div>
+        <h5 class="pd-15">Follow The Below Syntax</h5>
+        <code>
+          &lttagOpen class="according to color and hover" &gt
+          <br />
+          &ltspan&gt&lt/span&gt
+          <br />
+          &ltspan&gt&lt/span&gt
+          <br />
+          &ltspan&gt&lt/span&gt
+          <br />
+          &ltspan&gt&lt/span&gt
+          <br />
+          Text&lt/tagClose&gt
+        </code>
+      </div>
+    </section>
 
-</div>
-<h5 class="pd-15">Follow The Below Syntax</h5>
-<code>
-	&lttagOpen class="according to color and hover" &gt
-	<br>
-	&ltspan&gt&lt/span&gt
-	<br>
-	&ltspan&gt&lt/span&gt
-	<br>
-	&ltspan&gt&lt/span&gt
-	<br>
-	&ltspan&gt&lt/span&gt
-	<br>
-	Text&lt/tagClose&gt
-</code>
-    </div>
-
-</section>
-
-
-<script type="text/javascript">
-    function paste() {
-        code=document.querySelector("#code");
-        currectCode=code.value;
+    <script type="text/javascript">
+      function paste() {
+        code = document.querySelector("#code");
+        currectCode = code.value;
         console.log(currectCode);
-        document.querySelector("#codeshow").innerHTML=currectCode;
-    }
-    
-</script>
-<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
-<script src="assets/js/index.js"></script>
+        document.querySelector("#codeshow").innerHTML = currectCode;
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="assets/js/index.js"></script>
 
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </body>
 </html>
-
