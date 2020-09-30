@@ -1,0 +1,39 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f4b927;
+}
+.wrapper {
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 100px;
+  width: 180px;
+  background-color: #2a2a2a;
+  border-radius: 50px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  box-shadow: 0 0 22px rgba(145, 106, 8 . 0.8);
+  outline: none;
+  cursor: pointer;
+}
+label {
+  height: 80px;
+  width: 80px;
+  perspective: 250px;
+  -webkit-perspective: 250px;
+  position: absolute;
+  top: 135px;
+  left: 95px;
+}
