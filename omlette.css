@@ -37,3 +37,36 @@ label {
   top: 135px;
   left: 95px;
 }
+.omlette {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-origin: right;
+  transition: 0.2s;
+}
+.front,
+.back {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  border-radius: 50%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.front {
+  background-color: #e8e0dc;
+}
+.front:before,
+.front:after,
+.back:after {
+  content: "";
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
