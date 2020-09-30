@@ -70,3 +70,34 @@ label {
   bottom: 0;
 }
 
+.front:after {
+  height: 25px;
+  width: 27px;
+  border-top: 4px solid #ffffff;
+  border-radius: 50%;
+  transform: rotate(-35deg);
+}
+
+.front:before {
+  height: 40px;
+  width: 40px;
+  background-image: linear-gradient(135deg, #f6b02f, #ea6f0c);
+  border-radius: 50%;
+}
+
+.back {
+  background-color: #cabfa9;
+  transform: rotateY(-180deg);
+  bottom: 100%;
+}
+
+.back:after {
+  height: 40px;
+  width: 40px;
+  background-color: #d8b886;
+  border-radius: 50%;
+}
+
+input:checked + label > .omlette {
+  transform: rotateY(180deg);
+}
