@@ -3,6 +3,8 @@
 [![GitHub license](https://img.shields.io/github/license/mjmaurya/MJButtons)](https://github.com/mjmaurya/MJButtons/blob/master/LICENSE)
 [![welcome](https://img.shields.io/badge/PRs-welcome-red)](https://github.com/mjmaurya/MJButtons/blob/master/CONTRIBUTION.md)
 [![welcome](https://img.shields.io/badge/OpenSource-❤️-green)](https://github.com/mjmaurya/MJButtons/blob/master/CONTRIBUTION.md)
+[![GitHub forks](https://img.shields.io/github/forks/mjmaurya/MJButtons)](https://github.com/mjmaurya/MJButtons/network)
+[![GitHub stars](https://img.shields.io/github/stars/mjmaurya/MJButtons)](https://github.com/mjmaurya/MJButtons/stargazers)
 
 Simple buttons you can use easily for your next project.
 
