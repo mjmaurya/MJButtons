@@ -4,7 +4,7 @@
     position: relative;
     display: inline-block;
     padding: 10px 15px;
-    color: #050801;
+    color: #FF5733;
     text-align: center;
     background: transparent;
     overflow: hidden;
@@ -17,7 +17,7 @@
     position: relative;
     display: inline-block;
     padding: 10px 15px;
-    color: #050801;
+    color: #FF5733;
     box-shadow: 0 0 5px #fff;
     text-align: center;
     background: #ffe;
@@ -32,7 +32,7 @@
     position: relative;
     display: inline-block;
     padding: 10px 15px;
-    color: #050801;
+    color: #FF5733;
     z-index: 999;
   	box-shadow: 0 0 5px #fff;
     text-align: center;
@@ -48,7 +48,7 @@
     position: relative;
     display: inline-block;
     padding: 10px 15px;
-    color: #050801;
+    color: #FF5733;
   	box-shadow: 0 0 5px #fff;
     text-align: center;
     background: #f40317;
