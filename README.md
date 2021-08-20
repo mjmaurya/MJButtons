@@ -8,11 +8,11 @@
 
 Simple buttons you can use easily for your next project.
 
-[Hacktoberfest](https://hacktoberfest.digitalocean.com/) is starting soon, and this repository will help people who don't know where to start contributing
+this repository will help people who don't know where to start contributing
 
 ## Uses
 
-**You can download the CSS file [here](http://www.manojcse.me/mjbutton.html) and then add it to your html file inbetween the <head> tags:**
+**You can download the CSS file [here](http://mjmaurya.github.io/mjbutton.html) and then add it to your html file inbetween the <head> tags:**
   
   ```
   <link rel="stylesheet" href="/path/to/mjbuttons.min.css"> 
