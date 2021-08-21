@@ -51,7 +51,7 @@
     color: #050801;
   	box-shadow: 0 0 5px #fff;
     text-align: center;
-    background: #f40317;
+    background: #D44535;
     overflow: hidden;
     text-decoration: none;
     
@@ -66,7 +66,7 @@
     color: #050801;
   	box-shadow: 0 0 5px #fff;
     text-align: center;
-    background: #0000ff;
+    background: #32CBFF;
     overflow: hidden;
     text-decoration: none;
     
@@ -95,7 +95,7 @@
     color: #050801;
   	box-shadow: 0 0 5px #fff;
     text-align: center;
-    background: #00ff00;
+    background: #04DC3A;
     overflow: hidden;
     text-decoration: none;
     
@@ -110,7 +110,7 @@
     color: #050801;
   	box-shadow: 0 0 5px #fff;
     text-align: center;
-    background: #009933;
+    background: #B2EF2E;
     overflow: hidden;
     text-decoration: none;
     
@@ -132,13 +132,13 @@
     font-weight: bold;
 }
 .h-danger:hover{
-    background:  #f40317;
+    background:  #D44535;
     color: #fff;
     text-decoration: none;
-    box-shadow: 0 0 5px #f40317,
-                0 0 25px #f40317,
-                0 0 50px #f40317,
-                0 0 100px #f40317;
+    box-shadow: 0 0 5px #D44535,
+                0 0 25px #D44535,
+                0 0 50px #D44535,
+                0 0 100px #D44535;
 }
 .h-peace:hover{
     background:  #ffe;
@@ -150,13 +150,13 @@
                 0 0 100px #ffe;
 }
 .h-primary:hover{
-background:  #0000ff;
+background:  #32CBFF;
 color: #fff;
 text-decoration: none;
-box-shadow: 0 0 5px #0000ff,
-                0 0 25px #0000ff,
-                0 0 50px #0000ff,
-                0 0 100px #0000ff;
+box-shadow: 0 0 5px #32CBFF,
+                0 0 25px #32CBFF,
+                0 0 50px #32CBFF,
+                0 0 100px #32CBFF;
 }
 
 .h-dark:hover{
@@ -170,33 +170,33 @@ box-shadow: 0 0 5px #000,
 }
 
 .h-success:hover{
-background:  #009933;
+background:  #B2EF2E;
 color: #fff;
 text-decoration: none;
-box-shadow: 0 0 5px #009933,
-                0 0 25px #009933,
-                0 0 50px #009933,
-                0 0 100px #009933;
+box-shadow: 0 0 5px #B2EF2E,
+                0 0 25px #B2EF2E,
+                0 0 50px #B2EF2E,
+                0 0 100px #B2EF2E;
 }
 
 .h-lime:hover{
-background:  #00ff00;
+background:  #04DC3A;
 color: #fff;
 text-decoration: none;
-box-shadow: 0 0 5px #00ff00,
-                0 0 25px #00ff00,
-                0 0 50px #00ff00,
-                0 0 100px #00ff00;
+box-shadow: 0 0 5px #04DC3A,
+                0 0 25px #04DC3A,
+                0 0 50px #04DC3A,
+                0 0 100px #04DC3A;
 }
 
 .h-aqua:hover{
-	background:  #00e6e6;
+	background:  #69EBD0;
 color: #fff;
 text-decoration: none;
-box-shadow: 0 0 5px #00e6e6,
-                0 0 25px #00e6e6,
-                0 0 50px #00e6e6,
-                0 0 100px #00e6e6;
+box-shadow: 0 0 5px #69EBD0,
+                0 0 25px #69EBD0,
+                0 0 50px #69EBD0,
+                0 0 100px #69EBD0;
 }
 
 .h-warning:hover{
@@ -381,7 +381,7 @@ box-shadow: 0 0 5px #ffff00,
     left: 0;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg,transparent,#00ff00);
+    background: linear-gradient(90deg,transparent,#04DC3A);
     animation: animate1 1s linear infinite;
 }
 @keyframes animate1
@@ -399,7 +399,7 @@ box-shadow: 0 0 5px #ffff00,
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg,transparent,#00ff00);
+    background: linear-gradient(180deg,transparent,#04DC3A);
     animation: animate2 1s linear infinite;
     animation-delay: 0.25s;
 }
@@ -418,7 +418,7 @@ box-shadow: 0 0 5px #ffff00,
     bottom: 0;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg,transparent,#00ff00);
+    background: linear-gradient(270deg,transparent,#04DC3A);
     animation: animate3 1s linear infinite;
     animation-delay: 0.5s;
 }
@@ -437,7 +437,7 @@ box-shadow: 0 0 5px #ffff00,
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg,transparent,#00ff00);
+    background: linear-gradient(360deg,transparent,#04DC3A);
     animation: animate4 1s linear infinite;
     animation-delay: 0.75s;
 }
@@ -461,7 +461,7 @@ box-shadow: 0 0 5px #ffff00,
     left: 0;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg,transparent,#f40317);
+    background: linear-gradient(90deg,transparent,#D44535);
     animation: animate1 1s linear infinite;
 }
 @keyframes animate1
@@ -479,7 +479,7 @@ box-shadow: 0 0 5px #ffff00,
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg,transparent,#f40317);
+    background: linear-gradient(180deg,transparent,#D44535);
     animation: animate2 1s linear infinite;
     animation-delay: 0.25s;
 }
@@ -498,7 +498,7 @@ box-shadow: 0 0 5px #ffff00,
     bottom: 0;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg,transparent,#f40317);
+    background: linear-gradient(270deg,transparent,#D44535);
     animation: animate3 1s linear infinite;
     animation-delay: 0.5s;
 }
@@ -517,7 +517,7 @@ box-shadow: 0 0 5px #ffff00,
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg,transparent,#f40317);
+    background: linear-gradient(360deg,transparent,#D44535);
     animation: animate4 1s linear infinite;
     animation-delay: 0.75s;
 }
@@ -622,7 +622,7 @@ box-shadow: 0 0 5px #ffff00,
     left: 0;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg,transparent,#f40317);
+    background: linear-gradient(90deg,transparent,#D44535);
     animation: animate1 1s linear infinite;
 }
 @keyframes animate1
@@ -640,7 +640,7 @@ box-shadow: 0 0 5px #ffff00,
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg,transparent,#f40317);
+    background: linear-gradient(180deg,transparent,#D44535);
     animation: animate2 1s linear infinite;
     animation-delay: 0.25s;
 }
@@ -659,7 +659,7 @@ box-shadow: 0 0 5px #ffff00,
     bottom: 0;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg,transparent,#f40317);
+    background: linear-gradient(270deg,transparent,#D44535);
     animation: animate3 1s linear infinite;
     animation-delay: 0.5s;
 }
@@ -678,7 +678,7 @@ box-shadow: 0 0 5px #ffff00,
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg,transparent,#f40317);
+    background: linear-gradient(360deg,transparent,#D44535);
     animation: animate4 1s linear infinite;
     animation-delay: 0.75s;
 }
@@ -784,7 +784,7 @@ box-shadow: 0 0 5px #ffff00,
     left: 0;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg,transparent,#f40317);
+    background: linear-gradient(90deg,transparent,#D44535);
     animation: animate1 1s linear infinite;
 }
 @keyframes animate1
@@ -802,7 +802,7 @@ box-shadow: 0 0 5px #ffff00,
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg,transparent,#f40317);
+    background: linear-gradient(180deg,transparent,#D44535);
     animation: animate2 1s linear infinite;
     animation-delay: 0.25s;
 }
@@ -821,7 +821,7 @@ box-shadow: 0 0 5px #ffff00,
     bottom: 0;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg,transparent,#f40317);
+    background: linear-gradient(270deg,transparent,#D44535);
     animation: animate3 1s linear infinite;
     animation-delay: 0.5s;
 }
@@ -840,7 +840,7 @@ box-shadow: 0 0 5px #ffff00,
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg,transparent,#f40317);
+    background: linear-gradient(360deg,transparent,#D44535);
     animation: animate4 1s linear infinite;
     animation-delay: 0.75s;
 }
@@ -863,7 +863,7 @@ box-shadow: 0 0 5px #ffff00,
     left: 0;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg,transparent,#f40317);
+    background: linear-gradient(90deg,transparent,#D44535);
     animation: animate1 1s linear infinite;
 }
 @keyframes animate1
@@ -881,7 +881,7 @@ box-shadow: 0 0 5px #ffff00,
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg,transparent,#f40317);
+    background: linear-gradient(180deg,transparent,#D44535);
     animation: animate2 1s linear infinite;
     animation-delay: 0.25s;
 }
@@ -900,7 +900,7 @@ box-shadow: 0 0 5px #ffff00,
     bottom: 0;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg,transparent,#f40317);
+    background: linear-gradient(270deg,transparent,#D44535);
     animation: animate3 1s linear infinite;
     animation-delay: 0.5s;
 }
@@ -919,7 +919,7 @@ box-shadow: 0 0 5px #ffff00,
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg,transparent,#f40317);
+    background: linear-gradient(360deg,transparent,#D44535);
     animation: animate4 1s linear infinite;
     animation-delay: 0.75s;
 }
@@ -935,3 +935,20 @@ box-shadow: 0 0 5px #ffff00,
 }
 
 /* Write Your CSS here */
+.bt-neon{
+    margin: 5px;
+	border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #ececec;
+  	box-shadow: 0 0 5px #eeccee;
+    text-align: center;
+    background: #94fc13;
+    overflow: hidden;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
